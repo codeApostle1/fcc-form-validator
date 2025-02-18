@@ -22,3 +22,5 @@ let isError = false;
 function cleanInputString(str){
     const regex = /\+-\s/;
 }
+
+// this is it o
