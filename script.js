@@ -23,4 +23,4 @@ function cleanInputString(str){
     const regex = /\+-\s/;
 }
 
-// this is it o
+// this is it o yes po
