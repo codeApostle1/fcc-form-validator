@@ -20,7 +20,12 @@ let isError = false;
 
 
 function cleanInputString(str){
-    const regex = /\+-\s/;
+    const regex = /[+-\s]/g;
+    // this regex will remove all the +, - and spaces from the string and g is a flag for global search
+
+   return str.replace(regex, '');
+    // this will replace all the +, - and spaces with an empty string
+
 }
 
 // this is it o yes po
