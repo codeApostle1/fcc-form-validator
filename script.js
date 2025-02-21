@@ -33,7 +33,9 @@ function cleanInputString(str){
 
 
 function isInvalidInput(str){
-   const regex = /[0-9]e[0-9]/i;
+//    const regex = /[0-9]+e[0-9]+/i; THIS IS LONG CUT, A SHORTER WAY IS TO USETHE \d SHORTHAND
   
+
+const regex = /\d+e\d+/i;
 }
 
