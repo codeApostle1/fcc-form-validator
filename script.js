@@ -17,27 +17,7 @@ const output = document.getElementById('output');
 // for the output below the clear button
 
 
-// /////////////////////////test field
 
-const input = document.getElementById('input')
-
-const testText = document.getElementById('text')
-
-const testButton = document.getElementById('testButton')
-
-const textWord = testText.innerText
-
-testButton.addEventListener('click', testFunction)
-
-
-
-function testFunction(){
-   alert(textWord.match(/text/g))
-   console.log(textWord.match(/text/g));
-   
-}
-
-// ////////////////////////end test
 
 let isError = false;
 
@@ -62,5 +42,14 @@ function isInvalidInput(str){
 const regex = /\d+e\d+/i;
   return str.match(regex)
 
+
 }
+
+
+function addEntry(){
+  
+  const  targetInputContainer = document.querySelector(`#${entryDropdown.value} .input-container`);
+}
+
+
 
